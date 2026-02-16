@@ -127,7 +127,7 @@ def print_receipt(order, subtotal, discount):
 def main():
     #Main control function
     while True:
-        print("\n--- Central Perk Smart Café ---")
+        print("\n--- Central Perk Smart Cafe ---")
         print("1. Display Menu")
         print("2. Take Order")
         print("3. Search Item")
@@ -157,7 +157,7 @@ def main():
             sort_menu()
 
         elif choice == "5":
-            print("Thank you! Visit again ☕")
+            print("Thank you! Visit again.")
             break
 
         else:
